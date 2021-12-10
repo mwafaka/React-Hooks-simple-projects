@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: white;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #666;
+}
+.btnStyle{
+  background: rgb(255, 2, 2);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.getStyle{
+  background-color:lightgray;
+  pad: 10px;
+  border-bottom: 1px black ;
+  padding: 10px;
+  margin: 2px;
+}

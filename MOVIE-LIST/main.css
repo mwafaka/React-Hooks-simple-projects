@@ -1,0 +1,23 @@
+
+.movie-display{
+  margin-top: 5%; 
+  width: 30%;
+  border:1px solid lightgrey;
+  padding:10px;
+  
+  
+
+}
+.movie-display img{
+  height: 200px;
+  width: 97%;
+ 
+}
+.movie-display h5 {
+padding: 1px;
+}
+
+.container{
+  margin-left: 30%;
+  
+}

@@ -1,0 +1,17 @@
+.recipe-display {
+  margin-top: 5%;
+  width: 200px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+.recipe-display img {
+  height: 200px;
+  width: 97%;
+}
+.recipe-display h5 {
+  padding: 1px;
+}
+
+.container {
+  margin-left: 30%;
+}

@@ -1,0 +1,41 @@
+li {
+	list-style: none;
+}
+
+.envelope {
+	border: 3px solid black;
+	display: grid;
+	grid-template-areas:
+		'fromPerson . stamp'
+		'. toPerson .';
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	height: 396px;
+	width: 912px;
+}
+.fromPerson {
+	margin-top: 1em;
+}
+
+.fromPerson,
+.toPerson {
+	font-size: 1.25em;
+}
+
+.fromPerson {
+	grid-area: fromPerson;
+	margin-left: 1em;
+}
+
+.toPerson {
+	grid-area: toPerson;
+	justify-self: center;
+}
+
+
+.stamp {
+	grid-area: stamp;
+	justify-self: flex-end;
+	margin-right: 1em;
+	margin-top: 1em;
+}

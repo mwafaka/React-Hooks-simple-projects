@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 128, 0, 0.493);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    text-shadow: 10px 10px #3f3b3b;
+    z-index: 5;
+    transform: scale(0);
+    animation: title-animation 4s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes title-animation {
+    0% {
+        transform: scale(0.8);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0.8);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.insect {
+    position: absolute;
+    background-image: url('/images/mosquito.png');
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: scale(1);
+    animation: insect 1s alternate-reverse infinite;
+}
+
+.insect-death {
+    animation: insect-death 2s linear normal;
+}
+
+@keyframes insect-death {
+    from {
+        transform: rotate(0deg) scale(2.5);
+    }
+
+    to {
+        transform: rotate(360deg) scale(0);
+    }
+}
+
+@keyframes insect {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.tree {
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+
+.tree-style-1 {
+    background-image: url('/images/tree-1.png');
+}
+
+.tree-style-2 {
+    background-image: url('/images/tree-2.png');
+}
+
+.tree-style-3 {
+    background-image: url('/images/tree-3.png');
+}

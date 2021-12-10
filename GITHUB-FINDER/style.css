@@ -1,0 +1,18 @@
+/*  */
+#output{
+margin-top: 5%;
+    margin-left: 5%;
+    width: 35%;
+    
+}
+#section{
+    
+    border: 1px solid lightgray;
+    margin-top: 2px;
+    padding: 4px;
+}
+#body{
+margin-left: 25%;
+margin-top: 6%;
+widows: 50%;
+}
